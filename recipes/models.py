@@ -5,6 +5,9 @@ from django.db import models
 # criar tabela de categorias pra fazer relação com a tabela "Recipe" (que contém as informações de cada receita)
 class Category(models.Model):
     name = models.CharField(max_length=65)
+    def __str__(self) -> str:
+        return self.name
+        
 # criar a class recipe, que vai ser minha "tabela", com informações das receitas.
 class Recipe(models.Model):
     title = models.CharField(max_length=65)
@@ -32,3 +35,6 @@ class Recipe(models.Model):
         # on_delete: caso a pessoa apague, algum usuario, a coluna authors aqui também irá ser apagada.
         User, on_delete=models.SET_NULL, null=True
         )
+    
+    def __str__(self) -> str:
+        return self.title
