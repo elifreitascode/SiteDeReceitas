@@ -1,2 +1,3 @@
 projectDjango/*.javascript linguist-detectable=false
 projectDjango/*.python linguist-detectable=true
+*.py linguist-language=Python
