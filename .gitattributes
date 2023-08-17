@@ -1,2 +1,2 @@
-Gunspace/*.javascript linguist-detectable=false
-Gunspace/*.python linguist-detectable=true
+DJANGO/*.javascript linguist-detectable=false
+DJANGO/*.python linguist-detectable=true
