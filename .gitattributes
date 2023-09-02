@@ -1,3 +1,2 @@
-*.javascript linguist-detectable=false
-*.python linguist-detectable=true
-*.py linguist-language=Python
+./*.javascript linguist-detectable=false
+./*.python linguist-detectable=true
