@@ -1,2 +1,2 @@
-projectDjango/*.javascript linguist-detectable=false
-projectDjango/*.python linguist-detectable=true
+./*.javascript linguist-detectable=false
+./*.python linguist-detectable=true

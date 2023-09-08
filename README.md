@@ -12,7 +12,7 @@ alguns "Blocks" e alguns "include" pra otimizar tempo e evitar reescrever os mes
 página.
 
 As alterações que faço no "Models" do Django e faço as migrações, consigo ter acesso no "admin" do Django. É lá que administro o site, podendo excluir autores ou receitas
-cadastradas. 
+cadastradas.  
 
 Utilizei HTML (Linguagem de marcação) e CSS (Estilização). Foram feitas todas configurações (STATIC_ROOT e STATIC_URL) do arquivos estáticos, no "settings.py" do Django
 e também as configurações dos templates (BASE_DIR).
